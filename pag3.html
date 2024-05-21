@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>portfolio</title>
+
+    <style> /*estilização do código utilizando CSS*/
+        body {
+            margin: 0;
+            background-color: rgb(243, 243, 238)
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #244660;
+            height: 150px;
+        }
+
+        .menu {
+            justify-content: center;
+            size: 50px;
+            gap: 20px;
+        }
+
+        .boasvindas {
+            text-align: center;
+            font-size: 25px;
+            font-family: 'Segoe UI';
+            grid-column-start: 1;
+            grid-column-end: 12;
+            color: #f7f7f3;
+            background-color: #d3d3a9;
+
+        }
+
+        ul {
+            list-style-type: none;
+            color: #506E6A;
+            
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 16px 100px;
+            border: solid #000000 1px;
+            font-family: 'Segoe UI';
+        }
+
+        li {
+            float: left;
+            
+        }
+
+        a:hover {
+            background-color: #244660;
+            color: #f7f7f3;
+        }
+    </style>
+    </head>
+
+<body> <!--esqueleto geral do site, com cabeçalho e grid-->
+    <header class="container"> 
+        <h1 style="color: #d3d3a9; text-align: center; font-size: 60px;">Portfolio pessoal</h1>
+        <br>
+
+    </header>
+         <div class="container wrapper">
+            <section class="boasvindas">
+                 <p>Bem vindo(a)! Sinta-se à vontade para olhar as seções abaixo</p>
+            </section>
+         </div>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="pag2.html">Formação e experiências</a></li>
+            <li><a href="">Portfólio</a></li>
+            <li><a href="pag4.html">Contato</a></li>
+        </ul>
+     
+        <h2 id="l3" style="padding-top: 25px; color: #244660; text-align: center; font-size: 50px; font-style: italic;">Portfólio ainda em desenvolvimento...</h2>          
+
+</body>
+</html>
